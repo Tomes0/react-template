@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "form-builder-redux",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,23 +10,28 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "postcss": "^8.4.38",
     "primereact": "^10.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/postcss-import": "^14.0.3",
+    "@types/postcss-sorting": "^8.0.2",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/parser": "^7.7.1",
     "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "postcss": "^8.4.38",
-    "sass": "^1.75.0",
+    "postcss-import": "^16.1.0",
+    "postcss-sorting": "^8.0.2",
+    "postcss-initial": "^4.0.1",
+    "postcss-nested": "^6.0.1",
+    "postcss-preset-env": "^9.5.9",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
     "vite": "^5.2.10"
